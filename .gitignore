@@ -1,0 +1,18 @@
+# dependencies
+node_modules/
+
+# env files
+.env
+.env.*
+!.env.example
+
+# uploaded documents (keep the folder, ignore its contents)
+uploads/*
+!uploads/.gitkeep
+
+# logs
+*.log
+npm-debug.log*
+
+# os
+.DS_Store

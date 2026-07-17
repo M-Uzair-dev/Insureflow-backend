@@ -1,0 +1,27 @@
+{
+  "name": "insureflow-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "REST API for the InsureFlow portal — Express + Mongoose + MongoDB Atlas",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "seed": "node src/seed.js",
+    "clear": "node src/clear.js",
+    "clear:docs": "node src/clearDocuments.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "mongoose": "^8.9.5",
+    "multer": "^2.0.1",
+    "zod": "^3.24.1"
+  }
+}
